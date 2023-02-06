@@ -82,13 +82,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│    ~     │  {       │  [       │  (       │    :     │   │  ^       │  )       │  ]       │  }       │  `       │
-            &TILDE     &kp LBRC  &kp LBKT    &kp LPAR   &COLON         &kp CARET  &kp RPAR   &kp RBKT   &kp RBRC   &kp GRAVE
+            &kp TILDE   &kp LBRC  &kp LBKT    &kp LPAR   &kp COLON      &kp CARET  &kp RPAR   &kp RBKT   &kp RBRC   &kp GRAVE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  -       │  +       │  =       │  _       │  #       │   │  $       │          │          │          │          │
             &kp MINUS  &kp PLUS   &kp EQUAL &kp UNDER   &kp HASH      &kp DOLLAR  &trans     &trans     &trans      &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│   *      │     │    │    @     │   / ?    │     %    │   │          │  \       │  &       │  !       │    ?     │
-            &kp ASTRK  &kp PIPE   &kp AT    &kp FSLH   &kp PRCNT       &kp SEMI   &kp BSLH  &kp AMPS    &kp EXCL    &QMARK
+            &kp ASTRK  &kp PIPE   &kp AT    &kp FSLH   &kp PRCNT       &kp SEMI   &kp BSLH  &kp AMPS    &kp EXCL   &kp QMARK
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &mo NUM     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

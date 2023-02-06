@@ -69,8 +69,8 @@
         //│ DELETE   │  4       │  5       │  6       │          │   │          │ LEFT     │ DOWN     │ RIGHT    │          │
             &kp DEL    &kp N4     &kp N5     &kp N6     &trans         &trans     &kp DARW   &kp DARW   &kp RARW   &kp BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │          │  0       │   │          │          │          │          │          │
-            &trans     &trans     &trans     &trans     &kp N0         &trans     &kp PG_UP  &kp PG_DN  &kp TAB    &kp ENTER
+        //│          │          │          │          │          │   │          │          │          │          │          │
+           &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(LS(Z))    &trans     &kp PG_UP  &kp PG_DN  &kp TAB    &kp ENTER
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &none          &mo JUMP   &mo NUM
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

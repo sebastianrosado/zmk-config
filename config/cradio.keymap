@@ -60,7 +60,7 @@
             &kp DEL    &kp N4     &kp N5     &kp N6     &trans         &trans     &kp DARW   &kp DARW   &kp RARW   &kp BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │  0       │   │          │          │          │          │          │
-           &kp LGUI Z &kp LGUI X &kp LGUI C &kp LGUI V  &kp N0         &trans     &kp PG_UP  &kp PG_DN  &kp TAB    &kp ENTER
+            &trans     &trans     &trans     &trans     &kp N0         &trans     &kp PG_UP  &kp PG_DN  &kp TAB    &kp ENTER
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

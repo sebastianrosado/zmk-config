@@ -145,7 +145,7 @@
          &kp LA(LG(LC(LS(A))))  &kp LA(LG(LC(LS(R))))  &kp LA(LG(LC(LS(S)))) &kp LA(LG(LC(LS(T)))) &kp LA(LG(LC(LS(G))))  &kp LA(LG(LC(LS(M)))) &kp LA(LG(LC(LS(N)))) &kp LA(LG(LC(LS(E)))) &kp LA(LG(LC(LS(I))))  &bootloader
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-       &kp LA(LG(LC(LS(Z)))) &kp LA(LG(LC(LS(X)))) &kp LA(LG(LC(LS(C)))) &kp LA(LG(LC(LS(D)))) &kp LA(LG(LC(LS(V)))) &kp LA(LG(LC(LS(K)))) &kp LA(LG(LC(LS(H)))) &kp LA(LG(LC(LS(COMMA)))) &kp LA(LG(LC(LS(DOT)))) &kp LA(LG(LC(LS(FSLH))))
+          &kp HYPER(Z) &kp LA(LG(LC(LS(X)))) &kp LA(LG(LC(LS(C)))) &kp LA(LG(LC(LS(D)))) &kp LA(LG(LC(LS(V)))) &kp LA(LG(LC(LS(K)))) &kp LA(LG(LC(LS(H)))) &kp LA(LG(LC(LS(COMMA)))) &kp LA(LG(LC(LS(DOT)))) &kp LA(LG(LC(LS(FSLH))))
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

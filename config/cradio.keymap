@@ -142,7 +142,7 @@
           &bootloader  &trans     &trans     &trans      &trans          &trans     &trans     &trans     &trans  &bootloader
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-    &kp LA(LG(LC(LS(Z)))) &trans    &trans    &trans     &trans         &trans     &trans     &trans     &trans     &trans
+       &kp LA(LG(LC(LS(Z)))) &kp LA(LG(LC(LS(X)))) &kp LA(LG(LC(LS(C)))) &kp LA(LG(LC(LS(D)))) &kp LA(LG(LC(LS(V)))) &trans  &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

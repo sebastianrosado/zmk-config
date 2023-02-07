@@ -120,13 +120,13 @@
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
             &reset     &trans     &trans    &trans    &bt BT_SEL 0  &kp C_BRI_DEC &kp C_VOL_UP &kp C_VOL_UP &kp K_MUTE  &reset
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
-          &bootloader  &trans     &trans     &trans    &bt BT_SEL 1   &kp C_BRI_INC  &trans   &trans     &trans   &bootloader
+        //│BOOTLOADER│          │          │          │          │   │          │          │          │          │BOOTLOADER│
+          &bootloader  &trans     &trans     &trans      &none  &kp C_BRI_INC &kp LC(PG_UP) &kp LG(L) &kp LC(PG_UP) &bootloader
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp LG(LS(T)) &kp LG(R) &kp LG(W) &kp LG(T)  &kp LG(N)     &kp C_PLAY_PAUSE  &trans  &trans   &trans     &trans
+           &kp LG(LS(T)) &kp LG(R) &kp LG(W) &kp LG(T)  &kp LG(N)     &kp C_PLAY_PAUSE  &trans  &trans  &kp LEFT  &kp RIGHT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans         &trans     &trans
+                                             &mo JUMP    &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };

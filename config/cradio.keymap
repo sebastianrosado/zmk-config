@@ -135,14 +135,14 @@
             label = "JUMP";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ RESET    │          │          │ CLEAR BT │PROFILE 0 │   │PROFILE 1 │PROFILE 2 │          │          │  RESET   │
-            &reset     &trans     &trans    &bt BT_CLR &bt BT_SEL 0   &bt BT_SEL 1 &bt BT_SEL 2 &trans   &trans     &reset
+        //│          │          │          │          │          │   │CLEAR BT  │PROFILE 0 │ PROFILE 1│ PROFILE 2│  RESET   │
+          &kp LA(LG(LC(LS(Q)))) &kp LA(LG(LC(LS(W)))) &kp LA(LG(LC(LS(F)))) &kp LA(LG(LC(LS(P)))) &kp LA(LG(LC(LS(B)))) &bt BT_CLR &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &reset
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│BOOTLOADER│          │          │          │          │   │          │          │          │          │BOOTLOADER│
-          &bootloader  &trans     &trans     &trans      &trans          &trans     &trans     &trans     &trans  &bootloader
+        //│          │          │          │          │          │   │          │          │          │          │BOOTLOADER│
+         &kp LA(LG(LC(LS(A))))  &kp LA(LG(LC(LS(R))))  &kp LA(LG(LC(LS(S)))) &kp LA(LG(LC(LS(T)))) &kp LA(LG(LC(LS(G))))  &kp LA(LG(LC(LS(M)))) &kp LA(LG(LC(LS(N)))) &kp LA(LG(LC(LS(E)))) &kp LA(LG(LC(LS(I))))  &bootloader
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-       &kp LA(LG(LC(LS(Z)))) &kp LA(LG(LC(LS(X)))) &kp LA(LG(LC(LS(C)))) &kp LA(LG(LC(LS(D)))) &kp LA(LG(LC(LS(V)))) &trans  &trans     &trans     &trans     &trans     &trans
+       &kp LA(LG(LC(LS(Z)))) &kp LA(LG(LC(LS(X)))) &kp LA(LG(LC(LS(C)))) &kp LA(LG(LC(LS(D)))) &kp LA(LG(LC(LS(V)))) &kp LA(LG(LC(LS(K)))) &kp LA(LG(LC(LS(H)))) &kp LA(LG(LC(LS(COMMA)))) &kp LA(LG(LC(LS(DOT)))) &kp LA(LG(LC(LS(FSLH))))
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

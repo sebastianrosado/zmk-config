@@ -145,7 +145,7 @@
            &reset &kp HYPER(R) &kp HYPER(S) &kp HYPER(T) &kp HYPER(G) &kp HYPER(M) &kp HYPER(N) &kp HYPER(E) &kp HYPER(I)  &reset
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-        &kp HYPER(Z) &kp HYPER(X) &kp HYPER(X) &kp HYPER(D) &kp HYPER(V) &kp HYPER(K) &kp HYPER(H) &kp HYPER(COMMA) &kp HYPER(DOT) &kp HYPER(FSLH)
+        &kp HYPER(Z) &kp HYPER(X) &kp HYPER(C) &kp HYPER(D) &kp HYPER(V) &kp HYPER(K) &kp HYPER(H) &kp HYPER(COMMA) &kp HYPER(DOT) &kp HYPER(FSLH)
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

@@ -37,8 +37,8 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
+            if-layers = <NAV SYM>;
+            then-layer = <NUM>;
         };
     };
 
@@ -75,7 +75,7 @@
         //│          │          │          │          │          │   │          │          │          │          │          │
            &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(LS(Z))    &none     &kp PG_UP  &kp PG_DN  &kp TAB   &kp ENTER
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &none      &none          &mo JUMP   &mo NUM
+                                             &trans      &trans        &mo JUMP   &mo SYM
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -93,7 +93,7 @@
         //│   *      │     │    │    @     │   / ?    │     %    │   │          │  \       │  &       │  !       │    ?     │
             &kp ASTRK  &kp PIPE   &kp AT    &kp FSLH   &kp PRCNT       &kp SEMI   &kp BSLH  &kp AMPS    &kp EXCL   &kp QMARK
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &mo NUM     &none         &none       &none
+                                             &mo NUM     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -111,7 +111,7 @@
         //│          │          │          │          │          │   │          │          │          │          │          │
             &kp F7     &kp F5     &kp F3     &kp F1     &kp F9          &kp F8     &kp F12    &kp F2     &kp F4     &kp F6
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &none     &none          &none     &none
+                                              &trans     &trans        &trans       &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -129,7 +129,7 @@
         //│          │          │          │          │          │   │          │          │          │          │          │
            &kp LG(LS(T)) &kp LG(R) &kp LG(W) &kp LG(T)  &kp LG(N)     &kp C_PLAY_PAUSE  &none  &none  &kp LEFT  &kp RIGHT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &mo JUMP    &none         &none     &none
+                                             &mo JUMP    &trans         &trans    &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };

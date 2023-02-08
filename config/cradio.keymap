@@ -67,13 +67,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ APP      │  CAPS    │  ESC     │          │  CAPS    │   │          │ HOME     │ UP       │ END      │  DELETE  │
-            &kp K_APP &caps_word  &kp ESC    &none     &caps_word      &trans     &kp HOME   &kp UARW   &kp END    &kp DEL
+            &kp K_APP &caps_word  &kp ESC    &none     &caps_word      &none     &kp HOME   &kp UARW   &kp END    &kp DEL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │ LEFT     │ DOWN     │ RIGHT    │          │
-            &sk LCTRL  &sk LALT   &sk LGUI  &sk LSHIFT  &trans         &trans     &kp DARW   &kp DARW   &kp RARW   &kp BSPC
+            &sk LCTRL  &sk LALT   &sk LGUI  &sk LSHIFT  &none          &none     &kp DARW   &kp DARW   &kp RARW   &kp BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(LS(Z))    &trans     &kp PG_UP  &kp PG_DN  &kp TAB   &kp ENTER
+           &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(LS(Z))    &none     &kp PG_UP  &kp PG_DN  &kp TAB   &kp ENTER
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &none          &mo JUMP   &mo NUM
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -103,7 +103,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &kp KP_N7  &kp KP_N5  &kp KP_N3  &kp KP_N1 &kp KP_N9      &kp KP_N8  &kp KP_N0  &kp KP_N2  &kp KP_N4  &kp KP_N6
+            &kp N7      &kp N5     &kp N3    &kp N1      &kp N9         &kp N8     &kp N0     &kp N2     &kp N4     &kp N6
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
             &sk LCTRL  &sk LALT   &sk LGUI  &sk LSHIFT  &kp F11         &kp F10  &sk LSHIFT  &sk LGUI   &sk LALT   &sk LCTRL
@@ -120,14 +120,14 @@
             label = "MISC";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-            &reset     &trans     &trans    &trans    &bt BT_SEL 0  &kp C_BRI_DEC &kp C_VOL_UP &kp C_VOL_UP &kp K_MUTE  &reset
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│BOOTLOADER│          │          │          │          │   │          │          │          │          │BOOTLOADER│
-          &bootloader  &trans     &trans     &trans      &none  &kp C_BRI_INC &kp LC(PG_UP) &kp LG(L) &kp LC(PG_UP) &bootloader
+        //│          │          │          │          │          │   │          │          │          │          │          │
+            &none     &none      &none      &none      &none        &kp C_BRI_DEC &kp C_VOL_UP &kp C_VOL_UP &kp K_MUTE &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp LG(LS(T)) &kp LG(R) &kp LG(W) &kp LG(T)  &kp LG(N)     &kp C_PLAY_PAUSE  &trans  &trans  &kp LEFT  &kp RIGHT
+             &none      &none     &none     &none        &none  &kp C_BRI_INC &kp LC(PG_UP) &kp LG(L) &kp LC(PG_UP) &none
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│          │          │          │          │          │   │          │          │          │          │          │
+           &kp LG(LS(T)) &kp LG(R) &kp LG(W) &kp LG(T)  &kp LG(N)     &kp C_PLAY_PAUSE  &none  &none  &kp LEFT  &kp RIGHT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &mo JUMP    &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -138,11 +138,11 @@
             label = "JUMP";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│          │          │          │          │          │   │CLEAR BT  │PROFILE 0 │ PROFILE 1│ PROFILE 2│  RESET   │
-        &kp HYPER(Q) &kp HYPER(W) &kp HYPER(F) &kp HYPER(P) &kp HYPER(B) &bt BT_CLR &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &reset
+        //│ RESET    │          │          │          │          │   │CLEAR BT  │PROFILE 0 │ PROFILE 1│ PROFILE 2│  RESET   │
+           &reset  &kp HYPER(W) &kp HYPER(F) &kp HYPER(P) &kp HYPER(B) &bt BT_CLR &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &reset
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │          │          │   │          │          │          │          │BOOTLOADER│
-        &kp HYPER(A)  &kp HYPER(R) &kp HYPER(S) &kp HYPER(T) &kp HYPER(G) &kp HYPER(M) &kp HYPER(N) &kp HYPER(E) &kp HYPER(I) &bootloader
+        //│BOOTLOADER│          │          │          │          │   │          │          │          │          │BOOTLOADER│
+        &bootloader &kp HYPER(R) &kp HYPER(S) &kp HYPER(T) &kp HYPER(G) &kp HYPER(M) &kp HYPER(N) &kp HYPER(E) &kp HYPER(I) &bootloader
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
         &kp HYPER(Z) &kp HYPER(X) &kp HYPER(X) &kp HYPER(D) &kp HYPER(V) &kp HYPER(K) &kp HYPER(H) &kp HYPER(COMMA) &kp HYPER(DOT) &kp HYPER(FSLH)

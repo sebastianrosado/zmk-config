@@ -139,13 +139,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │CLEAR BT  │PROFILE 0 │ PROFILE 1│ PROFILE 2│  RESET   │
-          &kp LA(LG(LC(LS(Q)))) &kp LA(LG(LC(LS(W)))) &kp LA(LG(LC(LS(F)))) &kp LA(LG(LC(LS(P)))) &kp LA(LG(LC(LS(B)))) &bt BT_CLR &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &reset
+        &kp HYPER(Q) &kp HYPER(W) &kp HYPER(F) &kp HYPER(P) &kp HYPER(B) &bt BT_CLR &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &reset
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │BOOTLOADER│
-         &kp LA(LG(LC(LS(A))))  &kp LA(LG(LC(LS(R))))  &kp LA(LG(LC(LS(S)))) &kp LA(LG(LC(LS(T)))) &kp LA(LG(LC(LS(G))))  &kp LA(LG(LC(LS(M)))) &kp LA(LG(LC(LS(N)))) &kp LA(LG(LC(LS(E)))) &kp LA(LG(LC(LS(I))))  &bootloader
+        &kp HYPER(A)  &kp HYPER(R) &kp HYPER(S) &kp HYPER(T) &kp HYPER(G) &kp HYPER(M) &kp HYPER(N) &kp HYPER(E) &kp HYPER(I) &bootloader
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-          &kp HYPER(Z) &kp LA(LG(LC(LS(X)))) &kp LA(LG(LC(LS(C)))) &kp LA(LG(LC(LS(D)))) &kp LA(LG(LC(LS(V)))) &kp LA(LG(LC(LS(K)))) &kp LA(LG(LC(LS(H)))) &kp LA(LG(LC(LS(COMMA)))) &kp LA(LG(LC(LS(DOT)))) &kp LA(LG(LC(LS(FSLH))))
+        &kp HYPER(Z) &kp HYPER(X) &kp HYPER(X) &kp HYPER(D) &kp HYPER(V) &kp HYPER(K) &kp HYPER(H) &kp HYPER(COMMA) &kp HYPER(DOT) &kp HYPER(FSLH)
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯

@@ -66,8 +66,8 @@
             label = "NAV";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ APP      │  CAPS    │  ESC     │          │  CAPS    │   │          │ HOME     │ UP       │ END      │  DELETE  │
-            &kp K_APP &caps_word  &kp ESC    &none     &caps_word      &none     &kp HOME   &kp UP   &kp END    &kp DEL
+        //│ APP      │  CAPS    │  ESC     │          │          │   │          │ HOME     │ UP       │ END      │  DELETE  │
+            &kp K_APP &caps_word  &kp ESC    &none     &bootloader   &bootloader  &kp HOME   &kp UP   &kp END    &kp DEL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │ LEFT     │ DOWN     │ RIGHT    │          │
             &sk LCTRL  &sk LALT   &sk LGUI  &sk LSHIFT  &none          &none     &kp LEFT   &kp DOWN   &kp RIGHT   &kp BSPC
